@@ -1,0 +1,6 @@
+C:\Estadia\SICOES\SICOES\bin\SICOES.dll.config
+C:\Estadia\SICOES\SICOES\bin\SICOES.dll
+C:\Estadia\SICOES\SICOES\bin\SICOES.pdb
+C:\Estadia\SICOES\SICOES\obj\Debug\SICOES.csprojResolveAssemblyReference.cache
+C:\Estadia\SICOES\SICOES\obj\Debug\SICOES.dll
+C:\Estadia\SICOES\SICOES\obj\Debug\SICOES.pdb

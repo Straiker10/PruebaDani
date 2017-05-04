@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FD0F610-F299-4C60-ACD6-D8E0048E5A11}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SICOES</RootNamespace>
+    <AssemblyName>SICOES</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GUI\MisionVision.aspx" />
+    <Content Include="GUI\Principal.aspx" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\css\bootstrap-responsive.css" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\css\bootstrap.css" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\glyphicons\glyphicons_009_magic.png" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\glyphicons\glyphicons_042_group.png" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\glyphicons\glyphicons_079_podium.png" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\glyphicons\glyphicons_082_roundabout.png" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\glyphicons\glyphicons_155_show_thumbnails.png" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\glyphicons\glyphicons_163_iphone.png" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\glyphicons\glyphicons_214_resize_small.png" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\glyphicons\glyphicons_266_book_open.png" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\sadaka-contact-form.jpg" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\sadaka-main-slider.jpg" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\sponsor-carousel.jpg" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-alert.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-button.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-collapse.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-dropdown.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-modal.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-popover.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-scrollspy.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-tab.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-tooltip.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\bootstrap-transition.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\google-code-prettify\prettify.css" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\google-code-prettify\prettify.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\jquery.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\scripts.js" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\index.html" />
+    <Content Include="MasterPage\sadaka\HTML\about.html" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\bootstrap.css" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\bootstrap.min.css" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\font-awesome.min.css" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\jquery.sidr.dark.css" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\owl.carousel.css" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\prettyPhoto.css" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\style.css" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Resource\Imagenes\Banner.png" />
+    <Content Include="Resource\Imagenes\foto.jpg" />
+    <Content Include="Resource\Imagenes\foto2.jpg" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\heading-bg.jpg" />
+    <Content Include="Resource\Imagenes\images\about-us-image.jpg" />
+    <Content Include="Resource\Imagenes\images\about-us.jpg" />
+    <Content Include="Resource\Imagenes\images\causes\cause-culture.jpg" />
+    <Content Include="Resource\Imagenes\images\causes\cause-education.jpg" />
+    <Content Include="Resource\Imagenes\images\causes\cause-hunger.jpg" />
+    <Content Include="Resource\Imagenes\images\causes\cause-rights.jpg" />
+    <Content Include="Resource\Imagenes\images\causes\slider\cause-slider-1.jpg" />
+    <Content Include="Resource\Imagenes\images\causes\slider\cause-slider-2.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\7610291856_931fb9f461_k.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\afghani-60798_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\africa-education.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\boy-60729_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\child-207573_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\children-60654_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\children-82272_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\doll-87407_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\gallery-item-1.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\girl-62328_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\human-rights.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\hunger-682834_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\old-books-436498_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\7610291856_931fb9f461_k.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\afghani-60798_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\africa-education.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\boy-60729_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\child-207573_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\children-60654_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\children-82272_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\doll-87407_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\girl-62328_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\human-rights.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\hunger-682834_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\gallery\thumb\old-books-436498_1280.jpg" />
+    <Content Include="Resource\Imagenes\images\heading-bg.jpg" />
+    <Content Include="Resource\Imagenes\images\icons\help-icon.png" />
+    <Content Include="Resource\Imagenes\images\icons\make-donation-icon.png" />
+    <Content Include="Resource\Imagenes\images\icons\our-mission-icon.png" />
+    <Content Include="Resource\Imagenes\images\icons\programs-icon.png" />
+    <Content Include="Resource\Imagenes\images\icons\zoom-icon.png" />
+    <Content Include="Resource\Imagenes\images\Mision\mision.png" />
+    <Content Include="Resource\Imagenes\images\Mision\vision.jpg" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\default\loader.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\default\sprite.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="Resource\Imagenes\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="Resource\Imagenes\images\reasons\we-care-about.jpg" />
+    <Content Include="Resource\Imagenes\images\reasons\we-fight-togother.jpg" />
+    <Content Include="Resource\Imagenes\images\sadaka-logo.png" />
+    <Content Include="Resource\Imagenes\images\slider\home-slider-1.jpg" />
+    <Content Include="Resource\Imagenes\images\slider\home-slider-2.jpg" />
+    <Content Include="Resource\Imagenes\images\slider\home-slider-3.jpg" />
+    <Content Include="Resource\Imagenes\images\sponsors\bus.png" />
+    <Content Include="Resource\Imagenes\images\sponsors\one-world.png" />
+    <Content Include="Resource\Imagenes\images\sponsors\sponsor-taous.jpg" />
+    <Content Include="Resource\Imagenes\images\sponsors\sponsor-unilever.jpg" />
+    <Content Include="Resource\Imagenes\images\sponsors\united-nations.png" />
+    <Content Include="Resource\Imagenes\images\sponsors\wikimedia.png" />
+    <Content Include="Resource\Imagenes\images\sponsors\wikiversity.png" />
+    <Content Include="Resource\Imagenes\images\team\member-1.jpg" />
+    <Content Include="Resource\Imagenes\images\team\member-2.jpg" />
+    <Content Include="Resource\Imagenes\images\team\member-3.jpg" />
+    <Content Include="Resource\Imagenes\images\team\member-4.jpg" />
+    <Content Include="MasterPage\sadaka\HTML\assets\js\bootstrap.js" />
+    <Content Include="MasterPage\sadaka\HTML\assets\js\bootstrap.min.js" />
+    <Content Include="MasterPage\sadaka\HTML\assets\js\jquery-1.11.1.min.js" />
+    <Content Include="MasterPage\sadaka\HTML\assets\js\jquery.prettyPhoto.js" />
+    <Content Include="MasterPage\sadaka\HTML\assets\js\main.js" />
+    <Content Include="MasterPage\sadaka\HTML\assets\js\modernizr-2.6.2.min.js" />
+    <Content Include="MasterPage\sadaka\HTML\assets\js\owl.carousel.js" />
+    <Content Include="MasterPage\sadaka\HTML\assets\js\owl.carousel.min.js" />
+    <Content Include="MasterPage\sadaka\HTML\causes-single.html" />
+    <Content Include="MasterPage\sadaka\HTML\causes.html" />
+    <Content Include="MasterPage\sadaka\HTML\contact.html" />
+    <Content Include="MasterPage\sadaka\HTML\gallery.html" />
+    <Content Include="MasterPage\sadaka\HTML\index.html" />
+    <Content Include="Resource\Imagenes\logoPrepa.png" />
+    <Content Include="Resource\Imagenes\logotipopequeñp.jpg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI\MisionVision.aspx.cs">
+      <DependentUpon>MisionVision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\MisionVision.aspx.designer.cs">
+      <DependentUpon>MisionVision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Principal.aspx.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Principal.aspx.designer.cs">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\MasterPageSicoes.Master.cs">
+      <DependentUpon>MasterPageSicoes.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\MasterPageSicoes.Master.designer.cs">
+      <DependentUpon>MasterPageSicoes.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\.DS_Store" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\img\.DS_Store" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\.DS_Store" />
+    <Content Include="MasterPage\sadaka\DOCUMENTATION\assets\js\README.md" />
+    <Content Include="MasterPage\sadaka\HTML\assets\config.rb" />
+    <Content Include="MasterPage\sadaka\HTML\assets\css\bootstrap.css.map" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\FontAwesome.otf" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="MasterPage\sadaka\HTML\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="MasterPage\sadaka\HTML\assets\sass\partials\_base.scss" />
+    <Content Include="MasterPage\sadaka\HTML\assets\sass\partials\_layout.scss" />
+    <Content Include="MasterPage\sadaka\HTML\assets\sass\partials\_module.scss" />
+    <Content Include="MasterPage\sadaka\HTML\assets\sass\partials\_state.scss" />
+    <Content Include="MasterPage\sadaka\HTML\assets\sass\partials\_theme.scss" />
+    <Content Include="MasterPage\sadaka\HTML\assets\sass\partials\_variables.scss" />
+    <Content Include="MasterPage\sadaka\HTML\assets\sass\style.scss" />
+    <Content Include="MasterPage\sadaka\HTML\php\mail.php" />
+    <Content Include="MasterPage\MasterPageSicoes.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1816</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1816/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
