@@ -4,3 +4,9 @@ C:\Estadia\SICOES\SICOES\bin\SICOES.pdb
 C:\Estadia\SICOES\SICOES\obj\Debug\SICOES.csprojResolveAssemblyReference.cache
 C:\Estadia\SICOES\SICOES\obj\Debug\SICOES.dll
 C:\Estadia\SICOES\SICOES\obj\Debug\SICOES.pdb
+C:\Estadia\PruebaDani\SICOES\SICOES\bin\SICOES.dll.config
+C:\Estadia\PruebaDani\SICOES\SICOES\bin\SICOES.dll
+C:\Estadia\PruebaDani\SICOES\SICOES\bin\SICOES.pdb
+C:\Estadia\PruebaDani\SICOES\SICOES\obj\Debug\SICOES.dll
+C:\Estadia\PruebaDani\SICOES\SICOES\obj\Debug\SICOES.pdb
+C:\Estadia\PruebaDani\SICOES\SICOES\obj\Debug\SICOES.csprojResolveAssemblyReference.cache

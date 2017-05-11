@@ -102,7 +102,7 @@
     <Content Include="Resource\Imagenes\foto2.jpg" />
     <Content Include="MasterPage\sadaka\HTML\assets\css\heading-bg.jpg" />
     <Content Include="Resource\Imagenes\images\about-us-image.jpg" />
-    <Content Include="Resource\Imagenes\images\about-us.jpg" />
+    <Content Include="Resource\Imagenes\images\about-us.png" />
     <Content Include="Resource\Imagenes\images\causes\cause-culture.jpg" />
     <Content Include="Resource\Imagenes\images\causes\cause-education.jpg" />
     <Content Include="Resource\Imagenes\images\causes\cause-hunger.jpg" />

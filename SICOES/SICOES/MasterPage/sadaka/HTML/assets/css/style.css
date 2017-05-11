@@ -56,8 +56,8 @@ a:hover, a:focus, a:active {
 .navbar-main {
   margin-bottom: 0;
   padding: 35px 0;
-  color: #fff;
-  background-color:#fc7700;
+  color: #fff;   
+  background: #00B0F0;
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -73,7 +73,7 @@ a:hover, a:focus, a:active {
 .navbar-main .submenu {
   position: absolute;
   list-style: none;
-  background: #1f76bd;
+  background: #00B0F0;
   padding: 0;
   width: 150px;
   left: 10px;
@@ -419,7 +419,7 @@ a:hover, a:focus, a:active {
 /* Pages 
 ================================= */
 .page-heading {
-  background:url('../../../../../Resource/Imagenes/images/heading-bg.jpg')no-repeat center;
+  background:url('../../../../../Resource/Imagenes/images/about-us.png')no-repeat center;
   background-size: cover;
   min-height: 190px;
   color: #fff;

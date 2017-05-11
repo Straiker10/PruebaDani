@@ -17,7 +17,7 @@
               <img src="../Resource/Imagenes/images/slider/home-slider-1.jpg" alt="">
               <div class="container">
                 <div class="carousel-caption">
-                  <h2 class="carousel-title bounceInDown animated slow">Because they need your help</h2>
+                  <h2 class="carousel-title bounceInDown animated slow">PREARATORIA HUNUCMA</h2>
                   <h4 class="carousel-subtitle bounceInUp animated slow ">Do not let them down</h4>
                   <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE NOW</a>
 
@@ -101,6 +101,7 @@
                                     <p class="col-details">Brindar el servicio de Bachillerato a la comunidad estudiantil, de obras de acción social, cultural y deportiva a la comunidad en general con las actividades que realiza...</p>
                                 </div>
                             </div>
+                                <br />
                             <a href="MisionVision.aspx" class="btn btn-primary"> Leer Mas... </a>
                                 </div>
                             
