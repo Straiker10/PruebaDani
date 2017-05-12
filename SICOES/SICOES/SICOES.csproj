@@ -212,6 +212,7 @@
     <Content Include="MasterPage\sadaka\HTML\index.html" />
     <Content Include="Resource\Imagenes\logoPrepa.png" />
     <Content Include="Resource\Imagenes\logotipopequeñp.jpg" />
+    <Content Include="Resource\Imagenes\Orgullo.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

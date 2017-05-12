@@ -80,12 +80,21 @@
 		<div class="container">
 			<div class="row fadeIn animated">
 				<div class="col-md-6">
-					<img src="../Resource/Imagenes/images/about-us.jpg" alt="" class="img-responsive">
+					<img src="../Resource/Imagenes/Orgullo.jpg" alt="" class="img-responsive">
 				</div>
 				<div class="col-md-6">
-					<h2 class="title-style-2">A la comunidad estudiantil<span class="title-under"></span></h2>
+                    <div style="text-align: center; color:#ffd800" >
+                        <h2> A la comunidad estudiantil<span class="title-under"></span></h2>
+
+                    </div>
+                    <p>En nombre del equipo de trabajo de la Escuela Preparatoria Hunucmá quiero darles una cordial bienvenida al sitio web de nuestra institución y agradecerles el dedicar unos minutos de su tiempo para visitarlo.</p>
+                    <br />
                     <p>Este año es motivo de orgullo y alegría pues nuestra preparatoria, gracias a una trayectoria de crecimiento continuo y firme en la Educación Media Superior, se perfila en ofrecer un mejor servicio día a día de este nivel educativo en la comunidad de Hunucmá.</p>
-				</div>
+				<br />
+                    <p>Como ustedes seguramente saben, la educación es el mejor instrumento para lograr un desarrollo pleno en lo personal y es como una llave que abre puertas y ventanas de oportunidades para un mejor futuro.</p>
+                    <br />
+                    <p>Los invito a conocer los programas y actividades que ofrecemos, nuestro modelo educativo, así como la historia e instalaciones de nuestra casa de estudios, en los cuales nos dará mucho gusto verte y que formes parte de esta comunidad estudiantil, que aprende y que se prepara a diario con una formación integral y de calidad. Se parte de nuestro “Orgullo Prepa Hunucmá”.</p>
+                </div>
 
 			</div> <!-- /.row -->
 
@@ -218,7 +227,7 @@
 	                        <h4 class="member-name"><a href="#">Edgar Daniel Vazquez</a></h4>
 
 	                        <div class="member-position">
-	                            BEBE JAJAJAJA XD
+	                            Programador
 	                        </div>
 
 	                        <div class="btn-holder">
