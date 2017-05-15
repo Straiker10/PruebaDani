@@ -122,7 +122,7 @@
                                  <img src="../Resource/Imagenes/images/icons/make-donation-icon.png" alt="">
 
                             </div>
-                            <h3 class="col-title">Make donations</h3>
+                            <h3 class="col-title">MEYA Y MEFI</h3>
                             <div class="col-details">
                                 <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
 			                </div>
@@ -134,7 +134,7 @@
 			                        <div class="col-icon-wrapper">
 			                          <img src="../Resource/Imagenes/images/icons/help-icon.png" alt="">
 			                        </div>
-			                        <h3 class="col-title">Help & support</h3>
+			                        <h3 class="col-title"></h3>
 			                        <div class="col-details">
 
 			                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
@@ -395,7 +395,7 @@
 
                         <div class="footer-col">
 
-                            <h4 class="footer-title">Contact us <span class="title-under"></span></h4>
+                            <h4 class="footer-title">Contactanos <span class="title-under"></span></h4>
 
                             <div class="footer-content">
 
