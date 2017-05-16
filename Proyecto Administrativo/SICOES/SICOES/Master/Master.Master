@@ -4,23 +4,27 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
     <title>  <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder></title>
+    <%-- bootstrap --%>
      <link href="../CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Plugins/daterangepicker.css" rel="stylesheet" />
+    <%-- awesome --%>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link href="../cssfont/font-awesome.css" rel="stylesheet" />
     <link href="../CSS/AdminLTE.min.css" rel="stylesheet" />
     <link href="../CSS/_all-skins.css" rel="stylesheet" />
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
   <header class="main-header">
     <!-- Logo -->
     <a href=""class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Sicoes</b></span>
+      <span class="logo-lg"><b>SICOES</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -83,6 +87,7 @@
       </div>
     </nav>
   </header>
+        
      <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
@@ -91,68 +96,79 @@
         <div class="pull-left image">
           <img src="~/FormulariosBack/loginDatos/CRUZ-ROJA-AMBULANCIA.png" runat="server"  width="30" height="30" id="logo" class="img-circle" runat="server" alt="User Image"/>
         </div>
+          <%-- Apartado de login carga de imagen y nombre del usuario --%>
         <div runat="server" id="pruebanombre2" class="pull-left info">
              <p runat="server" id="nom">...</p>
            
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            <br />
         </div>
       </div>
  
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="treeview">
-          <a href="../FormulariosBack/RegistrarAmbulancia.aspx">
-            <i class=" icon-user"></i> <span> Registrar Alumno</span>
+          <a href="../Formularios/RegistrarAlumno.aspx">
+              <br />
+            <i class=" icon-user"></i> <span> Registro de Alumnos</span>
             <span class="pull-right-container">
-          
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
              <li class="treeview">
-          <a href="../FormulariosBack/RegistrarParamedico.aspx">
-            <i class=" icon-book"></i> <span> Registrar Calificaciones</span>
+          <a href="../Formularios/RegistroMaestroos.aspx">
+            <i class=" icon-user-md"></i> <span> Gestión de Maestros</span>
             <span class="pull-right-container">
-            
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
              <li class="treeview">
-          <a href="../FormulariosBack/Asignar_Ambulancia_Paramedico.aspx">
-            <i class=" icon-group"></i> <span> Registrar Grupos y Semestres</span>
+          <a href="#">
+            <i class=" icon-archive"></i> <span> Gestion de calificaciones</span>
             <span class="pull-right-container">
-             
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+        </li>
+           <li class="treeview">
+          <a href="../Formularios/GenerarCiclo.aspx">
+            <i class=" icon-magic"></i> <span> Gestion del Ciclo Escolar</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
              <li class="treeview">
           <a href="../FormulariosBack/Index.aspx">
-            <i class=" icon-archive"></i> <span> Modulo de Asignaturas</span>
+            <i class=" icon-bookmark"></i> <span> Reportes</span>
             <span class="pull-right-container">
-            
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
              <li class="treeview">
           <a href="../FormulariosBack/Ambulancias_en_emergencias.aspx">
-            <i class="icon-time"></i> <span>Generar Horarios </span>
+            <i class="icon-certificate"></i> <span>Calificaciones</span>
             <span class="pull-right-container">
-            
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
              <li class="treeview">
           <a href="../FormulariosBack/Bitacoras.aspx">
-            <i class="icon-book"></i> <span>Reportes</span>
+            <i class="icon-book"></i> <span>Pagos</span>
             <span class="pull-right-container">
-            
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
               <li class="treeview">
           <a href="../FormulariosBack/AgregarNoticia.aspx">
-            <i class=" icon-globe"></i> <span> Agregar Noticias</span>
+            <i class=" icon-globe"></i> <span> Estadisticas</span>
             <span class="pull-right-container">
-          
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
@@ -160,16 +176,107 @@
           <a href="../FormulariosFrond/Principal.aspx">
             <i class=" icon-user"></i> <span>Salir</span>
             <span class="pull-right-container">
-             
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
 
-
       </ul>
     </section>
+        
     <!-- /.sidebar -->
   </aside>
+      
+    
+<!-- jQuery 2.2.3 -->
+<script src="../Plugins/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="../Plugins/bootstrap.js"></script>
+<!-- Select2 -->
+<script src="../Plugins/select2.full.min.js"></script>
+<!-- InputMask -->
+    <script src="../Plugins/jquery.inputmask.js"></script>
+    <script src="../Plugins/jquery.inputmask.extensions.js"></script>
+    <script src="../Plugins/jquery.inputmask.date.extensions.js"></script>
+<!-- SlimScroll 1.3.0 -->
+<script src="../Plugins/jquery.slimscroll.min.js"></script>
+<!-- iCheck 1.0.1 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+        <script src="../Plugins/daterangepicker.js"></script>
+<script src="../../plugins/iCheck/icheck.min.js"></script>
+<!-- FastClick -->
+<script src="../../plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="../Plugins/app.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+    <script src="../Plugins/demo.js"></script>
+        <script>
+  $(function () {
+    //Initialize Select2 Elements
+    $(".select2").select2();
+
+    //Datemask dd/mm/yyyy
+    $("#datemask").inputmask("dd/mm/yyyy", {"placeholder": "dd/mm/yyyy"});
+    //Datemask2 mm/dd/yyyy
+    $("#datemask2").inputmask("mm/dd/yyyy", {"placeholder": "mm/dd/yyyy"});
+    //Money Euro
+    $("[data-mask]").inputmask();
+
+    //Date range picker
+    $('#reservation').daterangepicker();
+    //Date range picker with time picker
+    $('#reservationtime').daterangepicker({timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A'});
+    //Date range as a button
+    $('#daterange-btn').daterangepicker(
+        {
+          ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+          },
+          startDate: moment().subtract(29, 'days'),
+          endDate: moment()
+        },
+        function (start, end) {
+          $('#daterange-btn span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        }
+    );
+
+    //Date picker
+    $('#datepicker').datepicker({
+      autoclose: true
+    });
+
+    //iCheck for checkbox and radio inputs
+    $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+      checkboxClass: 'icheckbox_minimal-blue',
+      radioClass: 'iradio_minimal-blue'
+    });
+    //Red color scheme for iCheck
+    $('input[type="checkbox"].minimal-red, input[type="radio"].minimal-red').iCheck({
+      checkboxClass: 'icheckbox_minimal-red',
+      radioClass: 'iradio_minimal-red'
+    });
+    //Flat red color scheme for iCheck
+    $('input[type="checkbox"].flat-red, input[type="radio"].flat-red').iCheck({
+      checkboxClass: 'icheckbox_flat-green',
+      radioClass: 'iradio_flat-green'
+    });
+
+    //Colorpicker
+    $(".my-colorpicker1").colorpicker();
+    //color picker with addon
+    $(".my-colorpicker2").colorpicker();
+
+    //Timepicker
+    $(".timepicker").timepicker({
+      showInputs: false
+    });
+  });
+</script>
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

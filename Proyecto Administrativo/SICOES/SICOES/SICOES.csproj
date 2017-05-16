@@ -66,7 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="advanced.html" />
     <Content Include="CSS\jquery-2.2.3.min.js" />
+    <Content Include="Formularios\GenerarCiclo.aspx" />
+    <Content Include="Formularios\RegistroMaestroos.aspx" />
     <Content Include="Imagenes\alumnos-en-practicas.jpg" />
     <Content Include="packages.config" />
     <Content Include="Master\Master.Master" />
@@ -123,15 +126,46 @@
     <Content Include="CSS\_all-skins.css" />
     <Content Include="CSS\_all-skins.min.css" />
     <Content Include="Formularios\RegistrarAlumno.aspx" />
+    <Content Include="Plugins\app.min.js" />
+    <Content Include="Plugins\bootstrap-datepicker.js" />
+    <Content Include="Plugins\bootstrap.js" />
+    <Content Include="CSS\daterangepicker.css" />
+    <Content Include="Plugins\daterangepicker.css" />
+    <Content Include="Plugins\daterangepicker.js" />
+    <Content Include="Plugins\demo.js" />
+    <Content Include="Plugins\jquery-2.2.3.min.js" />
+    <Content Include="Plugins\jquery.inputmask.date.extensions.js" />
+    <Content Include="Plugins\jquery.inputmask.extensions.js" />
+    <Content Include="Plugins\jquery.inputmask.js" />
+    <Content Include="Plugins\jquery.slimscroll.js" />
+    <Content Include="Plugins\jquery.slimscroll.min.js" />
+    <Content Include="Plugins\select2.full.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BO\AlumnosBO.cs" />
+    <Compile Include="DAO\AlumnosDAO.cs" />
+    <Compile Include="DAO\ConexionDAO.cs" />
     <Compile Include="Formularios\RegistrarAlumno.aspx.cs">
       <DependentUpon>RegistrarAlumno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Formularios\RegistrarAlumno.aspx.designer.cs">
       <DependentUpon>RegistrarAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\GenerarCiclo.aspx.cs">
+      <DependentUpon>GenerarCiclo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\GenerarCiclo.aspx.designer.cs">
+      <DependentUpon>GenerarCiclo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\RegistroMaestroos.aspx.cs">
+      <DependentUpon>RegistroMaestroos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\RegistroMaestroos.aspx.designer.cs">
+      <DependentUpon>RegistroMaestroos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master\Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>
@@ -141,8 +175,12 @@
       <DependentUpon>Master.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ctrAlumnos.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="CV\" />
+    <Folder Include="img\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
