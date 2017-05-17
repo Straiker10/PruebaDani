@@ -69,14 +69,20 @@
     <Content Include="advanced.html" />
     <Content Include="CSS\jquery-2.2.3.min.js" />
     <Content Include="Formularios\GenerarCiclo.aspx" />
+    <Content Include="Formularios\login.aspx" />
+    <Content Include="Formularios\Login\css\style.css" />
+    <Content Include="Formularios\Login\index.html" />
+    <Content Include="Formularios\Login\js\index.js" />
     <Content Include="Formularios\RegistroMaestroos.aspx" />
     <Content Include="Imagenes\alumnos-en-practicas.jpg" />
+    <Content Include="Imagenes\logitopo.png" />
     <Content Include="packages.config" />
     <Content Include="Master\Master.Master" />
     <Content Include="CSS\bootstrap-theme.css.map" />
     <Content Include="CSS\bootstrap-theme.min.css.map" />
     <Content Include="CSS\bootstrap.css.map" />
     <Content Include="CSS\bootstrap.min.css.map" />
+    <Content Include="Formularios\Login\sass\style.sass" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -144,8 +150,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BO\AlumnosBO.cs" />
+    <Compile Include="BO\MaestrosBO.cs" />
     <Compile Include="DAO\AlumnosDAO.cs" />
     <Compile Include="DAO\ConexionDAO.cs" />
+    <Compile Include="DAO\LoginDAO.cs" />
+    <Compile Include="DAO\MaestrosDAO.cs" />
+    <Compile Include="Formularios\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\RegistrarAlumno.aspx.cs">
       <DependentUpon>RegistrarAlumno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -176,6 +192,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ctrAlumnos.cs" />
+    <Compile Include="Services\ctrMaestros.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CV\" />

@@ -71,7 +71,7 @@ namespace SICOES.DAO
             AlumnosBO datos = (AlumnosBO)id;
             cmd.Connection = con.EstablecerConexion();
             //  string sql = "update emergentequellama set ambulancia = @ambulancia,id=@id";
-            string sql = "delete  from RegistroAlumno WHERE Folio=1";
+            string sql = "delete  from RegistroAlumno WHERE Folio='"+datos.Folio+"'";
             cmd.CommandText = sql;
             con.AbrirConexion();
             int i = cmd.ExecuteNonQuery();

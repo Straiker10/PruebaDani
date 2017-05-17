@@ -94,22 +94,21 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="~/FormulariosBack/loginDatos/CRUZ-ROJA-AMBULANCIA.png" runat="server"  width="30" height="30" id="logo" class="img-circle" runat="server" alt="User Image"/>
+          <img src=""  runat="server" id="logo" class="img-responsive"  alt="User Image"/>
         </div>
           <%-- Apartado de login carga de imagen y nombre del usuario --%>
         <div runat="server" id="pruebanombre2" class="pull-left info">
              <p runat="server" id="nom">...</p>
-           
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-            <br />
         </div>
       </div>
  
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
+
         <li class="treeview">
           <a href="../Formularios/RegistrarAlumno.aspx">
-              <br />
+           
             <i class=" icon-user"></i> <span> Registro de Alumnos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
@@ -173,7 +172,7 @@
           </a>
         </li>
              <li class="treeview">
-          <a href="../FormulariosFrond/Principal.aspx">
+          <a href="../Formularios/login.aspx">
             <i class=" icon-user"></i> <span>Salir</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
